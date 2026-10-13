@@ -1,1 +1,1 @@
-# This is my Forntend Internship weekly work
+# This is my Forntend Internship
