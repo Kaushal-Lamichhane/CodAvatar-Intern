@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow | Day 02</title>
+</head>
+<body>
+  <header>
+    <h1>TaskFlow</h1>
+    <p>Your personal task dashboard</p>
+
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#add-task">Add task</a></li>
+        <li><a href="#register">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="dashboard" aria-labelledby="dashboard-heading">
+      <h2 id="dashboard-heading">My Dashboard</h2>
+      <p>Welcome! Here are your sample tasks.</p>
+
+      <section aria-labelledby="tasks-heading">
+        <h3 id="tasks-heading">Today's tasks</h3>
+
+        <ul>
+          <li>
+            <article>
+              <h4>Learn semantic HTML</h4>
+              <p>Status: In progress</p>
+              <button type="button">Mark complete</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Build an accessible form</h4>
+              <p>Status: Not started</p>
+              <button type="button">Mark complete</button>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Test keyboard navigation</h4>
+              <p>Status: Not started</p>
+              <button type="button">Mark complete</button>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="add-task" aria-labelledby="add-task-heading">
+      <h2 id="add-task-heading">Add a task</h2>
+
+      <form action="#" method="get">
+        <div>
+          <label for="task-title">Task title</label>
+          <input
+            type="text"
+            id="task-title"
+            name="taskTitle"
+            required
+            minlength="3"
+            maxlength="100"
+          >
+        </div>
+
+        <div>
+          <label for="task-description">Description</label>
+          <textarea
+            id="task-description"
+            name="taskDescription"
+            rows="3"
+          ></textarea>
+        </div>
+
+        <div>
+          <label for="task-priority">Priority</label>
+          <select id="task-priority" name="priority" required>
+            <option value="">Choose a priority</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+
+        <button type="submit">Submit task form</button>
+        <button type="reset">Clear form</button>
+      </form>
+    </section>
+
+    <section id="register" aria-labelledby="register-heading">
+      <h2 id="register-heading">Create an account</h2>
+
+      <form action="#" method="get">
+        <div>
+          <label for="full-name">Full name</label>
+          <input
+            type="text"
+            id="full-name"
+            name="fullName"
+            autocomplete="name"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+          >
+        </div>
+
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            autocomplete="new-password"
+            minlength="8"
+            required
+          >
+        </div>
+
+        <div>
+          <input
+            type="checkbox"
+            id="terms"
+            name="terms"
+            required
+          >
+          <label for="terms">
+            I agree to the terms
+          </label>
+        </div>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset registration</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>TaskFlow learning project — Day 02</p>
+  </footer>
+</body>
+</html>
