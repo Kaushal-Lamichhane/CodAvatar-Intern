@@ -1,0 +1,42 @@
+# Day 05 — TaskFlow Dashboard
+
+## Objective
+Build a responsive TaskFlow dashboard using React, TypeScript, and Tailwind CSS.
+
+## Technologies
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Tailwind CSS Vite plugin
+
+## UI Patterns
+### 1. Summary Cards
+Displays total tasks, tasks in progress, and completed tasks in a responsive grid.
+
+### 2. Recent Tasks
+Displays task titles, descriptions, and status badges using Flexbox.
+
+## Design Decisions
+- Used a light background to separate the page from the content cards.
+- Used a centered container with a maximum width to keep content readable.
+- Used a responsive grid for summary cards.
+- Used Flexbox to align task details and status labels.
+- Used consistent spacing, rounded corners, and subtle shadows.
+- Used different badge colors to distinguish task statuses.
+
+## Responsive Behavior
+- Small screens: summary cards stack in one column.
+- Medium screens: summary cards display in two columns.
+- Large screens: summary cards display in three columns.
+- Task details and status stack on narrow screens and align horizontally on wider screens.
+
+
+
+## Day 05 Acceptance Checklist
+- [x] Tailwind CSS styles render correctly.
+- [x] Summary cards display correctly.
+- [x] Recent Tasks displays correctly.
+- [x] Layout adapts to different screen sizes.
+- [x] Production build and TypeScript checks pass.
+- [x] Git changes reviewed and committed.
