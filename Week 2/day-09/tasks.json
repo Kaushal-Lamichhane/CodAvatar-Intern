@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Learn Javascript",
+        "status": "done"
+    },
+    {
+        "id": 2,
+        "title": "Practice fetch",
+        "status": "in-progress"
+    },
+    {
+        "id": 3,
+        "title": "Build TaskFlow",
+        "status": "todo"
+    }
+]
