@@ -15,6 +15,7 @@
 
 ## 📅 Daily Task Tracker
 
+
 📅 Daily Task Tracker
 Day	Topic	Status
 Day 01	Browser environment and Git	✅ Completed
@@ -22,6 +23,15 @@ Day 02	Semantic HTML and forms	✅ Completed
 Day 03	CSS box model and specificity	✅ Completed
 Day 04	As assigned in the training guide	✅ Completed
 Day 05	As assigned in the training guide	✅ Completed
+=======
+| Day | Topic | Status | 
+|---|---|---|
+| Day 01 | Browser environment and Git | ✅ Completed
+| Day 02 | Semantic HTML and forms | ✅ Completed|
+| Day 03 | CSS box model and specificity | ✅ Completed 
+| Day 04 | As assigned in the training guide |✅ Completed 
+| Day 05 | As assigned in the training guide |✅ Completed 
+
 
 Status legend: ⬜ Not started · 🟡 In progress · ✅ Completed
 
