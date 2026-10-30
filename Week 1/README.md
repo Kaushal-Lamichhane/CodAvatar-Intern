@@ -15,7 +15,7 @@
 
 ## 📅 Daily Task Tracker
 
-| Day | Topic | Status | Evidence |
+| Day | Topic | Status | 
 |---|---|---|---|
 | Day 01 | Browser environment and Git | ✅ Completed
 | Day 02 | Semantic HTML and forms | ✅ Completed|
