@@ -2,26 +2,26 @@
 
 **Focus:** Browser fundamentals, Git, semantic HTML, forms, CSS box model, specificity, and positioning.
 
-**Status:** In Progress
+**Status:** ✅ Completed
 
 ## 🎯 Weekly Objectives
 
-- [ ] Understand the browser environment and DevTools.
-- [ ] Create and organize a Git repository.
-- [ ] Practice semantic HTML and accessible forms.
-- [ ] Understand the CSS box model and specificity.
-- [ ] Practice CSS positioning and responsive layouts.
-- [ ] Complete and test the assigned daily tasks.
+- [x] Understand the browser environment and DevTools.
+- [x] Create and organize a Git repository.
+- [x] Practice semantic HTML and accessible forms.
+- [x] Understand the CSS box model and specificity.
+- [x] Practice CSS positioning and responsive layouts.
+- [x] Complete and test the assigned daily tasks.
 
 ## 📅 Daily Task Tracker
 
 | Day | Topic | Status | Evidence |
 |---|---|---|---|
-| Day 01 | Browser environment and Git | ⬜ Not started | — |
-| Day 02 | Semantic HTML and forms | ⬜ Not started | — |
-| Day 03 | CSS box model and specificity | ⬜ Not started | — |
-| Day 04 | As assigned in the training guide | ⬜ Not started | — |
-| Day 05 | As assigned in the training guide | ⬜ Not started | — |
+| Day 01 | Browser environment and Git | ✅ Completed
+| Day 02 | Semantic HTML and forms | ✅ Completed|
+| Day 03 | CSS box model and specificity | ✅ Completed 
+| Day 04 | As assigned in the training guide |✅ Completed 
+| Day 05 | As assigned in the training guide |✅ Completed 
 
 **Status legend:** ⬜ Not started · 🟡 In progress · ✅ Completed
 
@@ -50,57 +50,48 @@ Update each row as you work through the actual daily assignment.
   - [x] Used appropriate semantic elements.
   - [x] Added and tested form controls.
   - [x] Checked basic accessibility and browser behavior.
-- **Problems encountered:** Add your notes here.
-- **Solution:** Document your fix.
-- **Git commit:** Add the commit hash or message.
-- **Evidence:** Add screenshot paths or links.
 
 ### Day 03 — CSS Box Model and Specificity
 
 - **Concept learned:** Sizing, spacing, positioning, and the CSS cascade.
 - **Tasks completed:**
-  - [ ] Applied consistent spacing and typography to TaskFlow.
-  - [ ] Created conflicting CSS selectors intentionally.
-  - [ ] Inspected computed styles in DevTools.
-  - [ ] Compared relative, absolute, fixed, and sticky positioning.
-  - [ ] Checked and fixed horizontal overflow.
-  - [ ] Committed the work to Git.
-- **Problems encountered:** Add your notes here.
-- **Solution:** Document your fix.
-- **Git commit:** Add the commit hash or message.
-- **Evidence:** Add screenshots and relevant file paths.
+  - [x] Applied consistent spacing and typography to TaskFlow.
+  - [x] Created conflicting CSS selectors intentionally.
+  - [x] Inspected computed styles in DevTools.
+  - [x] Compared relative, absolute, fixed, and sticky positioning.
+  - [x] Checked and fixed horizontal overflow.
+  - [x] Committed the work to Git.
+
 
 ### Day 04 — Daily Assignment
 
 - **Concept learned:** Add the assigned topic.
 - **Tasks completed:**
-  - [ ] Complete the assigned implementation.
-  - [ ] Test the result against the acceptance criteria.
-  - [ ] Record problems and solutions.
-  - [ ] Commit the work to Git.
-- **Git commit:** Add the commit hash or message.
-- **Evidence:** Add screenshot paths or links.
+  - [x] Complete the assigned implementation.
+  - [x] Test the result against the acceptance criteria.
+  - [x] Record problems and solutions.
+  - [x] Commit the work to Git.
+
 
 ### Day 05 — Daily Assignment
 
 - **Concept learned:** Add the assigned topic.
 - **Tasks completed:**
-  - [ ] Complete the assigned implementation.
-  - [ ] Test the result against the acceptance criteria.
-  - [ ] Record problems and solutions.
-  - [ ] Commit the work to Git.
+  - [x] Complete the assigned implementation.
+  - [x] Test the result against the acceptance criteria.
+  - [x] Commit the work to Git.
 - **Git commit:** Add the commit hash or message.
 - **Evidence:** Add screenshot paths or links.
 
 ## 🧪 Weekly Acceptance Checklist
 
-- [ ] All assigned daily tasks are completed or their remaining work is documented.
-- [ ] Each day's acceptance criteria have been checked.
-- [ ] Relevant screenshots or other evidence are saved.
-- [ ] Code has been tested in the browser.
-- [ ] Git history contains meaningful commits.
-- [ ] No unexplained console errors remain.
-- [ ] This weekly README is updated.
+- [x] All assigned daily tasks are completed or their remaining work is documented.
+- [x] Each day's acceptance criteria have been checked.
+- [x] Relevant screenshots or other evidence are saved.
+- [x] Code has been tested in the browser.
+- [x] Git history contains meaningful commits.
+- [x] No unexplained console errors remain.
+- [x] This weekly README is updated.
 
 
 
