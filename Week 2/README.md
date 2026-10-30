@@ -12,17 +12,17 @@
   - Build a closure-based counter and fix a stale-data example.
   - Submit: Closure examples and output predictions.
 
-- [ ] **Day 08 — Arrays, Objects & Modules**
+- [x] **Day 08 — Arrays, Objects & Modules**
   - Practice `map`, `filter`, `find`, `reduce`, sorting, and destructuring.
   - Move reusable functions into JavaScript modules.
   - Submit: Task transformation module and edge-case results.
 
-- [ ] **Day 09 — Promises, Fetch & Event Loop**
+- [x] **Day 09 — Promises, Fetch & Event Loop**
   - Understand promises, `async/await`, and execution order.
   - Handle network errors and HTTP errors separately.
   - Submit: Async experiments, request log, and error notes.
 
-- [ ] **Day 10 — DOM, Storage & JavaScript Review**
+- [x] **Day 10 — DOM, Storage & JavaScript Review**
   - Build a task list using vanilla JavaScript.
   - Implement event delegation and local storage.
   - Handle empty data and malformed stored JSON.

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow - Day 10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = "./app.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1>TaskFlow</h1>
+        <p>My Daily tasks</p>
+
+        <form id="task-form">
+            <input
+            id="task-input"
+            type="text"
+            placeholder="Enter a task"
+            aria-label="Task name"
+            >
+
+            <button type="submit">Add Task</button>
+        </form>
+
+        <p id="empty-message">No task yet. Add your First Task!</p>
+
+        <ul id="task-list"></ul>
+    </main>
+</body>
+</html>
