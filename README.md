@@ -50,7 +50,7 @@ Each weekly folder contains a README documenting daily learning objectives, codi
 ## 📈 Progress
 
 - [x] Week 1 — HTML & CSS
-- [ ] Week 2 — JavaScript
+- [x] Week 2 — JavaScript
 - [ ] Week 3 — TypeScript
 - [ ] Week 4 — React
 - [ ] Week 5 — Hooks & State
