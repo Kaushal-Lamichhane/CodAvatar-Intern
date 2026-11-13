@@ -1,5 +1,7 @@
 
 import TaskCard from "./TaskCard";
+import {useState} from "react";
+
 
 interface Task {
     id: number;
@@ -8,6 +10,8 @@ interface Task {
 }
 
 function TaskList() {
+
+const [selectedTaskID, setSelectedTaskID] = useState<number | null>(null); 
 const tasks: Task[] = [
   { id: 1, title: "Learn React", completed: true },
   { id: 2, title: "Practice TypeScript", completed: false },
@@ -19,12 +23,15 @@ const tasks: Task[] = [
 return (
     <section>
         <h2>My Tasks</h2>
+        <p>Selected task ID:{selectedTaskID ?? "None"}</p>
         {tasks.map((task) => {
             return (
             <TaskCard
             key={task.id}
             title={task.title}
             completed={task.completed}
+            isSelected={selectedTaskID === task.id}
+            onSelect={() => setSelectedTaskID(task.id)}
         />);
         })}
     </section>
