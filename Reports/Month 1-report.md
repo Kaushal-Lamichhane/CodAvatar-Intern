@@ -158,9 +158,6 @@ One of the most important lessons was understanding that React development is no
 - **Week 3:** TypeScript exercises, data validation, modular code organization and type checking.
 - **Week 4:** React components, state management, forms, CRUD operations and Task Management Dashboard.
 
-
-The Day 20 work was pushed successfully to the main branch. ESLint and production build checks were completed successfully.
-
 ## 7. Reflection
 
 The first month of my internship has been a valuable learning experience. I started by strengthening my HTML and CSS fundamentals and gradually moved towards JavaScript, TypeScript and React.
